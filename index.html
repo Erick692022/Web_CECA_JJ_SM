@@ -1,0 +1,858 @@
+<!DOCTYPE html>
+<html class="wide wow-animation" lang="es">
+  <head>
+    <title>CECA</title>
+    <meta
+      name="viewport"
+      content="width=device-width height=device-height initial-scale=1.0"
+    />
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+      integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf"
+      crossorigin="anonymous"
+    />
+    <link rel="icon" href="images/favicon.webp" type="image/x-icon" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.2/font/bootstrap-icons.css"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/index.css" />
+    <style>
+      .ie-panel {
+        display: none;
+        background: #212121;
+        padding: 10px 0;
+        box-shadow: 3px 3px 5px 0 rgba(0, 0, 0, 0.3);
+        clear: both;
+        text-align: center;
+        position: relative;
+        z-index: 1;
+      }
+
+      html.ie-10 .ie-panel,
+      html.lt-ie-10 .ie-panel {
+        display: block;
+      }
+    </style>
+  </head>
+
+  <body>
+    <div class="ie-panel">
+      <a href="http://windows.microsoft.com/en-US/internet-explorer/"
+        ><img
+          src="images/ie8-panel/warning_bar_0000_us.jpg"
+          height="42"
+          width="820"
+          alt="You are using an outdated browser. For a faster, safer browsing experience, upgrade for free today."
+      /></a>
+    </div>
+
+    <div class="preloader">
+      <div class="preloader-logo">
+        <a class="brand" href="index.html"
+          ><img
+            class="brand-logo-dark"
+            src="images/logo_cecajjsm.webp"
+            alt=""
+            width="245"
+            height="50" /><img
+            class="brand-logo-light"
+            src="images/logo_cecajjsm.webp"
+            alt=""
+            width="245"
+            height="50"
+        /></a>
+      </div>
+      <div class="preloader-body">
+        <div class="cssload-container">
+          <div class="cssload-speeding-wheel"></div>
+        </div>
+      </div>
+    </div>
+
+    <div class="page">
+      <!--Header-->
+      <header class="page-header">
+        <!--Navbar-->
+        <div class="rd-navbar-wrap" style="height: 100px">
+          <nav
+            class="rd-navbar rd-navbar-classic"
+            data-layout="rd-navbar-fixed"
+            data-sm-layout="rd-navbar-fixed"
+            data-md-layout="rd-navbar-fixed"
+            data-md-device-layout="rd-navbar-fixed"
+            data-lg-layout="rd-navbar-static"
+            data-lg-device-layout="rd-navbar-fixed"
+            data-xl-layout="rd-navbar-static"
+            data-xl-device-layout="rd-navbar-static"
+            data-lg-stick-up-offset="46px"
+            data-xl-stick-up-offset="46px"
+            data-xxl-stick-up-offset="46px"
+            data-lg-stick-up="true"
+            data-xl-stick-up="true"
+            data-xxl-stick-up="true"
+          >
+            <div class="rd-navbar-main-outer">
+              <div class="rd-navbar-main">
+                <!-- RD Navbar Panel-->
+                <div class="rd-navbar-panel">
+                  <!-- RD Navbar Toggle-->
+                  <button
+                    class="rd-navbar-toggle"
+                    data-rd-navbar-toggle=".rd-navbar-nav-wrap"
+                  >
+                    <span></span>
+                  </button>
+                  <!-- RD Navbar Brand-->
+                  <div class="rd-navbar-brand">
+                    <a class="brand" href="index.html"
+                      ><img
+                        class="brand-logo-dark"
+                        src="images/logo_cecajjsm.webp"
+                        alt=""
+                        width="235"
+                        height="40" /><img
+                        class="brand-logo-light"
+                        src="images/logo_cecajjsm.webp"
+                        alt=""
+                        width="235"
+                        height="40"
+                    /></a>
+                  </div>
+                </div>
+                <div class="rd-navbar-nav-wrap">
+                  <!-- RD Navbar Nav		-->
+                  <ul class="rd-navbar-nav">
+                    <li class="rd-nav-item active">
+                      <a class="rd-nav-link" href="index.html">INICIO</a>
+                    </li>
+                    <li class="rd-nav-item">
+                      <a
+                        class="rd-nav-link"
+                        href="https://campusvirtual.peruvianscience.org/"
+                        >AULA VIRTUAL</a
+                      >
+                    </li>
+                    <li class="rd-nav-item">
+                      <a class="rd-nav-link" href="Eventos.html"
+                        >EVENTOS GRATUITOS</a
+                      >
+                    </li>
+                    <li class="rd-nav-item">
+                      <a class="rd-nav-link" href="Nosotros.html"
+                        >INFORMACIÓN</a
+                      >
+                    </li>
+                    <li class="rd-nav-item">
+                      <a class="rd-nav-link" href="Contacto.html">CONTACTOS</a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </nav>
+        </div>
+      </header>
+      <section>
+        <!-- Swiper-->
+        <div
+          class="swiper-container swiper-slider swiper-slider-1"
+          data-loop="false"
+          data-autoplay="5000"
+          data-simulate-touch="false"
+        >
+          <div class="swiper-wrapper">
+            <div class="swiper-slide" data-slide-bg="images/img-web/hero1.webp">
+              <div class="swiper-slide-caption context-dark">
+                <div class="container">
+                  <div class="row">
+                    <div class="col-md-10 col-lg-7">
+                      <div class="box-animation">
+                        <h6
+                          data-caption-animate="slideInLeft"
+                          data-caption-delay="150"
+                        >
+                          NOMBRAMIENTO DOCENTE
+                        </h6>
+                        <h2
+                          data-caption-animate="slideInLeft"
+                          data-caption-delay="300"
+                        >
+                          Curso de capacitación
+                          <span class="text-italic font-weight-bold"
+                            >al docente</span
+                          >
+                        </h2>
+                        <div
+                          class="button-block"
+                          data-caption-animate="fadeInUp"
+                          data-caption-delay="450"
+                        >
+                          <a class="button button-primary-gradient" href="#"
+                            ><span>INSCRIBETE Y SE PARTE DE NOSOTROS</span></a
+                          >
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="swiper-slide" data-slide-bg="images/img-web/hero2.webp">
+              <div class="swiper-slide-caption context-dark">
+                <div class="container">
+                  <div class="row">
+                    <div class="col-md-10 col-lg-7">
+                      <div class="box-animation">
+                        <h6
+                          data-caption-animate="slideInLeft"
+                          data-caption-delay="150"
+                        >
+                          Tenemos una variedad de programas
+                        </h6>
+                        <h2
+                          data-caption-animate="slideInLeft"
+                          data-caption-delay="300"
+                        >
+                          Postula a nuestros cursos gratuitos
+                          <span class="text-italic font-weight-bold"
+                            >o compra un plan de nuestros cursos más
+                            avanzados</span
+                          >
+                        </h2>
+                        <div
+                          class="button-block"
+                          data-caption-animate="fadeInUp"
+                          data-caption-delay="450"
+                        >
+                          <a class="button button-primary-gradient" href="#"
+                            ><span>Ir a nuestros planes</span></a
+                          >
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="swiper-slide" data-slide-bg="images/img-web/hero3.webp">
+              <div class="swiper-slide-caption context-dark">
+                <div class="container">
+                  <div class="row">
+                    <div class="col-md-10 col-lg-7">
+                      <div class="box-animation">
+                        <h6
+                          data-caption-animate="slideInLeft"
+                          data-caption-delay="150"
+                        >
+                          Visita nuestro campus
+                        </h6>
+                        <h2
+                          data-caption-animate="slideInLeft"
+                          data-caption-delay="300"
+                        >
+                          Recorre nuestro campus
+                          <span class="text-italic font-weight-bold"
+                            >y conoce a la comunidad</span
+                          >
+                        </h2>
+                        <div
+                          class="button-block"
+                          data-caption-animate="fadeInUp"
+                          data-caption-delay="450"
+                        >
+                          <a class="button button-primary-gradient" href="#"
+                            ><span>Excursión</span></a
+                          >
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-pagination"></div>
+        </div>
+      </section>
+
+      <!-- A Few Words About Me-->
+      <section class="section section-lg bg-gray-100">
+        <div class="container">
+          <div
+            class="row row-50 justify-content-center justify-content-lg-between"
+          >
+            <div class="col-12">
+              <h3 class="h-custom-1 f1">Nosotros</h3>
+            </div>
+            <div class="col-md-6 col-lg-5 col-xl-3 wow fadeIn">
+              <p>
+                Somos una Empresa dedicada a la capacitacion, formación de
+                docentes y estudiantes con la mas alta calidad de cursos
+                gratuitos y de pago.
+              </p>
+              <a class="button button-primary-gradient" href="Nosotros.html"
+                ><span>VER MÁS</span></a
+              >
+            </div>
+            <div class="col-md-6 col-xl-3 wow fadeIn" data-wow-delay=".2s">
+              <!-- Linear progress bar-->
+              <article class="progress-linear">
+                <div class="progress-header">
+                  <p>Docentes Capacitados</p>
+                  <span class="progress-value">80</span>
+                </div>
+                <div class="progress-bar-linear-wrap">
+                  <div class="progress-bar-linear"></div>
+                </div>
+              </article>
+              <!-- Linear progress bar-->
+              <article class="progress-linear">
+                <div class="progress-header">
+                  <p>Docentes capacitado aprobados</p>
+                  <span class="progress-value">70</span>
+                </div>
+                <div class="progress-bar-linear-wrap">
+                  <div class="progress-bar-linear"></div>
+                </div>
+              </article>
+              <!-- Linear progress bar-->
+              <article class="progress-linear">
+                <div class="progress-header">
+                  <p>Estudiantes de colegios preparandose en CECA</p>
+                  <span class="progress-value">70</span>
+                </div>
+                <div class="progress-bar-linear-wrap">
+                  <div class="progress-bar-linear"></div>
+                </div>
+              </article>
+              <!-- Linear progress bar-->
+              <article class="progress-linear">
+                <div class="progress-header">
+                  <p>Estudiantes de CECA Ingresantes a una Universidad</p>
+                  <span class="progress-value">50</span>
+                </div>
+                <div class="progress-bar-linear-wrap">
+                  <div class="progress-bar-linear"></div>
+                </div>
+              </article>
+            </div>
+            <div class="col-xl-4 wow fadeIn" data-wow-delay=".4s">
+              <img class="img-rounded" src="images/clases.webp" alt="" />
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Cursos-->
+      <section class="section section-lg bg-default text-center">
+        <div class="container">
+          <h2 class="wow fadeIn">Nuestros cursos</h2>
+          <div class="row row-30 row-md-50 row-xl-70">
+            <div class="col-sm-6 col-lg-4 wow fadeIn">
+              <!-- Post Minimal-->
+              <div class="post-minimal">
+                <figure class="post-minimal-media">
+                  <a href="#"
+                    ><img
+                      class="post-minimal-image"
+                      src="images/img-web/card_geometria.webp"
+                      alt=""
+                      width="370"
+                      height="260"
+                  /></a>
+                </figure>
+                <div class="post-minimal-meta">
+                  <ul class="list-inline">
+                    <li class="list-inline-item">Profesor:</li>
+                    <li class="list-inline-itema">
+                      <a href="#">Charles Banks</a>
+                    </li>
+                  </ul>
+                </div>
+                <h4 class="post-minimal-title">
+                  <a href="#">Geometría</a>
+                </h4>
+              </div>
+            </div>
+            <div class="col-sm-6 col-lg-4 wow fadeIn" data-wow-delay=".2s">
+              <!-- Post Minimal-->
+              <div class="post-minimal">
+                <figure class="post-minimal-media">
+                  <a href="#"
+                    ><img
+                      class="post-minimal-image"
+                      src="images/card_algebra.webp"
+                      alt=""
+                      width="370"
+                      height="260"
+                  /></a>
+                </figure>
+                <div class="post-minimal-meta">
+                  <ul class="list-inline">
+                    <li class="list-inline-item">Profesor:</li>
+                    <li class="list-inline-itema">
+                      <a href="#">Maria Howard</a>
+                    </li>
+                  </ul>
+                </div>
+                <h4 class="post-minimal-title">
+                  <a href="#">Álgebra</a>
+                </h4>
+              </div>
+            </div>
+            <div class="col-sm-6 col-lg-4 wow fadeIn" data-wow-delay=".4s">
+              <!-- Post Minimal-->
+              <div class="post-minimal">
+                <figure class="post-minimal-media">
+                  <a href="#"
+                    ><img
+                      class="post-minimal-image"
+                      src="images/img-web/card_anatomia.webp"
+                      alt=""
+                      width="370"
+                      height="260"
+                  /></a>
+                </figure>
+                <div class="post-minimal-meta">
+                  <ul class="list-inline">
+                    <li class="list-inline-item">Profesor:</li>
+                    <li class="list-inline-itema">
+                      <a href="#">Steven Carter</a>
+                    </li>
+                  </ul>
+                </div>
+                <h4 class="post-minimal-title">
+                  <a href="#">Anatomía</a>
+                </h4>
+              </div>
+            </div>
+            <div class="col-sm-6 col-lg-4 wow fadeIn">
+              <!-- Post Minimal-->
+              <div class="post-minimal">
+                <figure class="post-minimal-media">
+                  <a href="#"
+                    ><img
+                      class="post-minimal-image"
+                      src="images/img-web/card_biologia.webp"
+                      alt=""
+                      width="370"
+                      height="260"
+                  /></a>
+                </figure>
+                <div class="post-minimal-meta">
+                  <ul class="list-inline">
+                    <li class="list-inline-item">Profesor:</li>
+                    <li class="list-inline-itema">
+                      <a href="#">Julie Weaver</a>
+                    </li>
+                  </ul>
+                </div>
+                <h4 class="post-minimal-title">
+                  <a href="#">Biología </a>
+                </h4>
+              </div>
+            </div>
+            <div class="col-sm-6 col-lg-4 wow fadeIn" data-wow-delay=".2s">
+              <!-- Post Minimal-->
+              <div class="post-minimal">
+                <figure class="post-minimal-media">
+                  <a href="#"
+                    ><img
+                      class="post-minimal-image"
+                      src="images/img-web/card_fisica.webp"
+                      alt=""
+                      width="370"
+                      height="260"
+                  /></a>
+                </figure>
+                <div class="post-minimal-meta">
+                  <ul class="list-inline">
+                    <li class="list-inline-item">Profesor:</li>
+                    <li class="list-inline-itema">
+                      <a href="#">Kathy Gibson</a>
+                    </li>
+                  </ul>
+                </div>
+                <h4 class="post-minimal-title">
+                  <a href="#">Física</a>
+                </h4>
+              </div>
+            </div>
+            <div class="col-sm-6 col-lg-4 wow fadeIn" data-wow-delay=".4s">
+              <!-- Post Minimal-->
+              <div class="post-minimal">
+                <figure class="post-minimal-media">
+                  <a href="#"
+                    ><img
+                      class="post-minimal-image"
+                      src="images/img-web/card_psicologia.webp"
+                      alt=""
+                      width="370"
+                      height="260"
+                  /></a>
+                </figure>
+                <div class="post-minimal-meta">
+                  <ul class="list-inline">
+                    <li class="list-inline-item">Profesor:</li>
+                    <li class="list-inline-itema">
+                      <a href="#">Walter Myers</a>
+                    </li>
+                  </ul>
+                </div>
+                <h4 class="post-minimal-title">
+                  <a href="#">Psicología</a>
+                </h4>
+              </div>
+            </div>
+          </div>
+          <a
+            class="button button-lg button-primary-gradient wow fadeIn"
+            data-wow-delay=".2s"
+            href="https://campusvirtual.peruvianscience.org/course/"
+            ><span>más cursos</span></a
+          >
+        </div>
+      </section>
+
+      <!-- Latest Blog Posts-->
+      <section class="section section-lg bg-default text-center">
+        <div class="container">
+          <h2 class="wow fadeIn">Más Contenido</h2>
+          <div class="row row-30 justify-content-center">
+            <div class="col-sm-10 col-md-6 wow fadeIn" data-wow-delay=".2s">
+              <!-- Post Light--><a
+                class="post-light context-dark"
+                href="https://campusvirtual.peruvianscience.org/course/"
+                target="_blank"
+                style="background-image: url(./images/docente.webp)"
+              >
+                <div class="post-light-inner">
+                  <div class="badge">Aula Virtual</div>
+                  <div class="post-light-main">
+                    <p class="post-light-time">Para mejorar tu enseñanza</p>
+                    <h4 class="post-light-title">Capacitación Docente</h4>
+                  </div>
+                </div>
+              </a>
+            </div>
+            <div class="col-sm-10 col-md-6 wow fadeIn" data-wow-delay=".2s">
+              <!-- Post Light--><a
+                class="post-light context-dark"
+                href="https://campusvirtual.peruvianscience.org/course/"
+                target="_blank"
+                style="background-image: url(./images/clases.webp)"
+              >
+                <div class="post-light-inner">
+                  <div class="badge">Aula Virtual</div>
+                  <div class="post-light-main">
+                    <p class="post-light-time">Para mejorar tu rendimiento</p>
+                    <h4 class="post-light-title">
+                      Capacitación Pre-Universitaria
+                    </h4>
+                  </div>
+                </div>
+              </a>
+            </div>
+
+            <div class="col-sm-10 col-md-6 wow fadeIn" data-wow-delay=".2s">
+              <!-- Post Light--><a
+                class="post-light context-dark"
+                href="https://campusvirtual.peruvianscience.org/blog/index.php"
+                target="_blank"
+                style="background-image: url(./images/blog.webp)"
+              >
+                <div class="post-light-inner">
+                  <div class="badge">Aula Virtual</div>
+                  <div class="post-light-main">
+                    <p class="post-light-time">
+                      Para mantenerte actualizado con nuestro
+                    </p>
+                    <h4 class="post-light-title">Blog Informativo</h4>
+                  </div>
+                </div>
+              </a>
+            </div>
+
+            <div class="col-sm-10 col-md-6 wow fadeIn" data-wow-delay=".2s">
+              <!-- Post Light--><a
+                class="post-light context-dark"
+                href="https://campusvirtual.peruvianscience.org/course/"
+                target="_blank"
+                style="background-image: url(./images/webinars.webp)"
+              >
+                <div class="post-light-inner">
+                  <div class="badge">Aula Virtual</div>
+                  <div class="post-light-main">
+                    <p class="post-light-time">
+                      Amplia tus conocimientos con nuestros
+                    </p>
+                    <h4 class="post-light-title">Webinars</h4>
+                  </div>
+                </div>
+              </a>
+            </div>
+          </div>
+          <a
+            class="button button-lg button-primary-gradient wow fadeIn"
+            href="https://campusvirtual.peruvianscience.org/course/"
+            target="_blank"
+            data-wow-delay=".2s"
+            ><span>VER MÁS</span></a
+          >
+        </div>
+      </section>
+
+      <!-- Gallery-->
+      <section class="section oh text-center">
+        <div
+          class="owl-carousel owl-carousel-dots-space wow fadeIn"
+          data-items="2"
+          data-sm-items="3"
+          data-md-items="4"
+          data-lg-items="5"
+          data-xl-items="6"
+          data-dots="true"
+          data-nav="false"
+          data-stage-padding="0"
+          data-loop="false"
+          data-margin="0"
+          data-mouse-drag="false"
+          data-lightgallery="group"
+        >
+          <!-- Thumbnail Thin-->
+          <a
+            class="thumbnail-thin"
+            href="images/testimonios_img/testimonios_lg_1.webp"
+            data-lightgallery="item"
+          >
+            <div class="thumbnail-thin-inner">
+              <img
+                class="thumbnail-thin-image"
+                src="images/testimonios_img/testimonios_sm_1.webp"
+                alt=""
+                width="320"
+                height="320"
+              />
+            </div>
+          </a>
+          <!-- Thumbnail Thin-->
+          <a
+            class="thumbnail-thin"
+            href="images/testimonios_img/testimonios_lg_1.webp"
+            data-lightgallery="item"
+          >
+            <div class="thumbnail-thin-inner">
+              <img
+                class="thumbnail-thin-image"
+                src="images/testimonios_img/testimonios_sm_1.webp"
+                alt=""
+                width="320"
+                height="320"
+              />
+            </div>
+          </a>
+          <!-- Thumbnail Thin--><a
+            class="thumbnail-thin"
+            href="images/testimonios_img/testimonios_lg_2.webp"
+            data-lightgallery="item"
+          >
+            <div class="thumbnail-thin-inner">
+              <img
+                class="thumbnail-thin-image"
+                src="images/testimonios_img/testimonios_sm_2.webp"
+                alt=""
+                width="320"
+                height="320"
+              />
+            </div>
+          </a>
+          <!-- Thumbnail Thin--><a
+            class="thumbnail-thin"
+            href="images/testimonios_img/testimonios_lg_1.webp"
+            data-lightgallery="item"
+          >
+            <div class="thumbnail-thin-inner">
+              <img
+                class="thumbnail-thin-image"
+                src="images/testimonios_img/testimonios_sm_1.webp"
+                alt=""
+                width="320"
+                height="320"
+              />
+            </div>
+          </a>
+          <!-- Thumbnail Thin--><a
+            class="thumbnail-thin"
+            href="images/testimonios_img/testimonios_lg_1.webp"
+            data-lightgallery="item"
+          >
+            <div class="thumbnail-thin-inner">
+              <img
+                class="thumbnail-thin-image"
+                src="images/testimonios_img/testimonios_sm_1.webp"
+                alt=""
+                width="320"
+                height="320"
+              />
+            </div>
+          </a>
+          <!-- Thumbnail Thin--><a
+            class="thumbnail-thin"
+            href="images/testimonios_img/testimonios_lg_2.webp"
+            data-lightgallery="item"
+          >
+            <div class="thumbnail-thin-inner">
+              <img
+                class="thumbnail-thin-image"
+                src="images/testimonios_img/testimonios_sm_2.webp"
+                alt=""
+                width="320"
+                height="320"
+              />
+            </div>
+          </a>
+        </div>
+      </section>
+
+      <!-- Page Footer-->
+      <footer class="section footer-classic bg-gray-950">
+        <div class="footer-classic-main">
+          <div class="container">
+            <div class="row row-30">
+              <div class="col-lg-3">
+                <div class="row row-30 row-xl-40">
+                  <div class="col-6 col-md-3 col-lg-12">
+                    <article class="counter-minimal">
+                      <div class="counter-minimal-counter">
+                        <div class="counter">97</div>
+                        <span class="counter-postfix">%</span>
+                      </div>
+                      <p class="counter-minimal-title">Graduados</p>
+                    </article>
+                  </div>
+                  <div class="col-6 col-md-3 col-lg-12">
+                    <article class="counter-minimal">
+                      <div class="counter-minimal-counter">
+                        <div class="counter">30</div>
+                        <span class="counter-postfix">+</span>
+                      </div>
+                      <p class="counter-minimal-title">
+                        Profesores Certificados
+                      </p>
+                    </article>
+                  </div>
+                  <div class="col-6 col-md-3 col-lg-12">
+                    <article class="counter-minimal">
+                      <div class="counter-minimal-counter counter">8</div>
+                      <p class="counter-minimal-title">Estudiantes en Campus</p>
+                    </article>
+                  </div>
+                  <div class="col-6 col-md-3 col-lg-12">
+                    <article class="counter-minimal">
+                      <div class="counter-minimal-counter counter">650</div>
+                      <p class="counter-minimal-title">Estudiantes</p>
+                    </article>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-sm-6 col-lg-4 col-xl-5">
+                <div class="facebook">
+                  <h3>Visita nuestro Facebook</h3>
+                  <!-- RD facebook Feed-->
+                  <iframe
+                    src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2Fcecajjsm%2Fabout&tabs=timeline&width=350&height=600&small_header=false&adapt_container_width=true&hide_cover=false&show_facepile=true&appId"
+                    style="border: none; overflow: hidden"
+                    class="jusify-center"
+                    scrolling="no"
+                    frameborder="0"
+                    allowfullscreen="true"
+                    allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"
+                  ></iframe>
+                </div>
+              </div>
+
+              <div class="col-sm-6 col-lg-5 col-xl-4">
+                <div class="row row-50 row-xl-70">
+                  <div class="col-12">
+                    <h3>Sobre nsosotros</h3>
+                    <p>
+                      Somos una Empresa dedicada a la capacitacion, formación de
+                      docentes y estudiantes con la mas alta calidad de cursos
+                      gratuitos y de pago.
+                    </p>
+                  </div>
+                  <div class="col-12">
+                    <h3>Blog</h3>
+                    <p>
+                      Manténgase al día con nuestras noticias semanales y
+                      actualizaciones sobre nuestros cursos. Introduce tu e-mail
+                      y suscríbete a nuestro Blog.
+                    </p>
+                    <!-- RD Mailform-->
+                    <form
+                      class="rd-form rd-mailform form-inline subscribe-form"
+                      data-form-output="form-output-global"
+                      data-form-type="subscribe"
+                      method="post"
+                      action="bat/rd-mailform.php"
+                    >
+                      <div class="form-wrap">
+                        <input
+                          class="form-input"
+                          id="subscribe-form-2-email"
+                          type="email"
+                          name="email"
+                          data-constraints="@Email @Required"
+                        />
+                        <label class="form-label" for="subscribe-form-2-email"
+                          >E-mail</label
+                        >
+                      </div>
+                      <div class="form-button">
+                        <button
+                          class="button button-primary-gradient button-icon-only"
+                          type="submit"
+                          aria-label="subscribe"
+                        >
+                          <span><i class="bi bi-envelope"></i></span>
+                        </button>
+                      </div>
+                    </form>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="footer-classic-aside">
+          <div class="container">
+            <!-- Rights-->
+            <p class="rights">
+              <span>&copy;&nbsp;</span><span class="copyright-year"></span
+              ><span>&nbsp;</span><span>Todos los derechos reservados.</span
+              ><span>&nbsp;</span><br class="d-sm-none" /><a href="#"
+                >Términos de uso</a
+              ><span>y</span><span>&nbsp;</span
+              ><a href="#"> Política de Privacidad.</a>
+            </p>
+          </div>
+        </div>
+      </footer>
+    </div>
+
+    <div class="snackbars" id="form-output-global"></div>
+    <script src="js/core.min.js"></script>
+    <script src="js/script.js"></script>
+  </body>
+</html>
