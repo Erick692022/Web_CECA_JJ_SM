@@ -490,31 +490,6 @@
 			}
 		}
 
-		
-
-		// Additional class on html if mac os.
-		if (navigator.platform.match(/(Mac)/i)) {
-			$html.addClass("mac-os");
-		}
-
-		// Adds some loosing functionality to IE browsers (IE Polyfills)
-		if (isIE) {
-			if (isIE === 12) $html.addClass("ie-edge");
-			if (isIE === 11) $html.addClass("ie-11");
-			if (isIE < 10) $html.addClass("lt-ie-10");
-			if (isIE < 11) $html.addClass("ie-10");
-		}
-
-		// Bootstrap Tooltips
-		if (plugins.bootstrapTooltip.length) {
-			var tooltipPlacement = plugins.bootstrapTooltip.attr('data-placement');
-			initBootstrapTooltip(tooltipPlacement);
-
-			$window.on('resize orientationchange', function () {
-				initBootstrapTooltip(tooltipPlacement);
-			})
-		}
-
 		// Bootstrap Buttons
 		if (plugins.statefulButton.length) {
 			$(plugins.statefulButton).on('click', function () {
