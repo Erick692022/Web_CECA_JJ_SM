@@ -2242,7 +2242,7 @@ hr {
 
 .button-primary-gradient:after {
   position: absolute;
-  content: "";
+  content: "✉️";
   top: 0;
   left: 0;
   right: 0;
@@ -8458,7 +8458,7 @@ html:not(.lt-ie10) .not-animated {
   font-size: 20px;
   line-height: 52px;
   color: #ffffff;
-  background: #0008ff;
+  background: #29293a;
   overflow: hidden;
   text-align: center;
   text-decoration: none;
@@ -12543,11 +12543,11 @@ html.tablet .ui-to-top {
 }
 
 .lg-toolbar .lg-close:after {
-  content: "\e070";
+  content: "✖️";
 }
 
 .lg-toolbar .lg-download:after {
-  content: "\e0f2";
+  content: "⬇️";
 }
 
 .lg-sub-html {
@@ -12899,7 +12899,7 @@ body:not(.lg-from-hash)
 }
 
 #lg-zoom-in:after {
-  content: "\e311";
+  content: "➕";
 }
 
 #lg-actual-size {
@@ -12916,7 +12916,7 @@ body:not(.lg-from-hash)
 }
 
 #lg-zoom-out:after {
-  content: "\e312";
+  content: "➖";
 }
 
 .lg-zoomed #lg-zoom-out {
@@ -13008,11 +13008,11 @@ body:not(.lg-from-hash)
 }
 
 .lg-fullscreen:after {
-  content: "\e20c";
+  content: "🖥️";
 }
 
 .lg-fullscreen-on .lg-fullscreen:after {
-  content: "\e20d";
+  content: "🖥️";
 }
 
 .lg-outer #lg-dropdown-overlay {
@@ -13570,11 +13570,11 @@ body:not(.lg-from-hash)
 }
 
 .lg-toolbar .lg-close:after {
-  content: "\e070";
+  content: "✖️";
 }
 
 .lg-toolbar .lg-download:after {
-  content: "\e0f2";
+  content: "⬇️";
 }
 
 .lg-sub-html {
@@ -13924,7 +13924,7 @@ body:not(.lg-from-hash)
 }
 
 #lg-zoom-in:after {
-  content: "\e311";
+  content: "➕";
 }
 
 #lg-actual-size {
@@ -13932,7 +13932,7 @@ body:not(.lg-from-hash)
 }
 
 #lg-actual-size:after {
-  content: "\e033";
+  content: "🔍";
 }
 
 #lg-zoom-out {
@@ -13941,7 +13941,7 @@ body:not(.lg-from-hash)
 }
 
 #lg-zoom-out:after {
-  content: "\e312";
+  content: "➖";
 }
 
 .lg-zoomed #lg-zoom-out {
@@ -14033,11 +14033,11 @@ body:not(.lg-from-hash)
 }
 
 .lg-fullscreen:after {
-  content: "\e20c";
+  content: "🖥️";
 }
 
 .lg-fullscreen-on .lg-fullscreen:after {
-  content: "\e20d";
+  content: "🖥️";
 }
 
 .lg-outer #lg-dropdown-overlay {
@@ -14149,7 +14149,7 @@ body:not(.lg-from-hash)
 }
 
 .lg-outer #lg-share:after {
-  content: "\e80d";
+  content: "📤";
 }
 
 .lg-outer #lg-share-facebook .lg-icon {
@@ -14921,58 +14921,58 @@ rd-navbar-wrap {
   height: 500px;
 }
 
-.modal{
-	position: fixed;
-	top: 0;
-	left: 0;
-	background: rgb(0 0 0 / 90%);
-	transition: all 500ms ease;
-	opacity: 0;
-	visibility: hidden;
+.modal {
+  position: fixed;
+  top: 0;
+  left: 0;
+  background: rgb(0 0 0 / 90%);
+  transition: all 500ms ease;
+  opacity: 0;
+  visibility: hidden;
 }
-#btn-modal:checked ~ .modal{
-	opacity: 1;
-	visibility: visible;
-} 
+#btn-modal:checked ~ .modal {
+  opacity: 1;
+  visibility: visible;
+}
 .contenedor {
-    width: 98%;
-    height: 100%;
-    margin: auto;
-    background: #fff0;
-    box-shadow: 1px 7px 25px rgb(0 0 0 / 60%);
-    transition: all 500ms ease;
-    position: relative;
-    transform: translateY(-30%);
+  width: 98%;
+  height: 100%;
+  margin: auto;
+  background: #fff0;
+  box-shadow: 1px 7px 25px rgb(0 0 0 / 60%);
+  transition: all 500ms ease;
+  position: relative;
+  transform: translateY(-30%);
 }
 #btn-modal:checked ~ .modal .contenedor {
-    transform: inherit;
-    position: absolute;
-} 
-.contenedor header{
-	padding: 10px;
-	background: #36312d;
-	color: #fff;
+  transform: inherit;
+  position: absolute;
 }
-.contenedor label{
-	position: absolute;
-	top: 10px;
-	right: 10px;
-	color: #fff;
-	font-size: 15px;
-	cursor: pointer;
+.contenedor header {
+  padding: 10px;
+  background: #36312d;
+  color: #fff;
 }
-.contenido{
-	width: 100%;
-	padding: 10px; 
+.contenedor label {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  color: #fff;
+  font-size: 15px;
+  cursor: pointer;
 }
-.contenido h3{
-	margin-bottom: 10px;
+.contenido {
+  width: 100%;
+  padding: 10px;
 }
-.contenido p{
-	margin-bottom: 7px;
+.contenido h3 {
+  margin-bottom: 10px;
 }
-#btn-modal{
-	display: none;
+.contenido p {
+  margin-bottom: 7px;
+}
+#btn-modal {
+  display: none;
 }
 .lbl-modal {
   background: url(https://www.uncommunitymanager.es/wp-content/uploads/seo_google_youtube.jpg);
@@ -14982,8 +14982,8 @@ rd-navbar-wrap {
   height: 344px;
   background-size: cover;
 }
-@media only screen and (min-width:320px) and (max-width:768px){
-	.contenedor{
-		width: 95%;
-	}
+@media only screen and (min-width: 320px) and (max-width: 768px) {
+  .contenedor {
+    width: 95%;
+  }
 }
