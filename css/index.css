@@ -2242,7 +2242,7 @@ hr {
 
 .button-primary-gradient:after {
   position: absolute;
-  content: "✉️";
+  content: "";
   top: 0;
   left: 0;
   right: 0;
